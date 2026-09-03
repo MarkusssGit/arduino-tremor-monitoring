@@ -10,7 +10,7 @@ The system was designed to detect tremor frequencies in the 3–12 Hz
 range and provide a basis for controlling a vibration motor in response
 to the detected tremor.
 
-- `tremor_sensor_inator_motor.ino` — main application and hardware control
+- `tremor_sensor_inator_motor.ino` - main application and hardware control
 - `butterworth.cpp/hpp` - 8th-order Butterworth filter
 - `biquad.cpp/hpp` - second-order filter implementation
 - `fast_fourier.cpp/hpp` - FFT and tremor detection
