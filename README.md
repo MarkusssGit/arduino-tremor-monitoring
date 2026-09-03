@@ -11,8 +11,8 @@ range and provide a basis for controlling a vibration motor in response
 to the detected tremor.
 
 - `tremor_sensor_inator_motor.ino` — main application and hardware control
-- `butterworth.*` — 8th-order Butterworth filter
-- `biquad.*` — second-order filter implementation
-- `fast_fourier.*` — FFT and tremor detection
-- `PE1MEW_Timer.*` — sampling timer
+- `butterworth.cpp/hpp` — 8th-order Butterworth filter
+- `biquad.cpp/hpp` — second-order filter implementation
+- `fast_fourier.cpp/hpp` — FFT and tremor detection
+- `PE1MEW_Timer.cpp/hpp` — sampling timer
 - `ringbuffer.h` — circular buffer utility
